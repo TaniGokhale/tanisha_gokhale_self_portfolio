@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanisha_gokhale || Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="overlay"></div>
+    <header class="d-flex justify-content-between align-items-center p-3 bg-light">
+        <a href="#" class="logo"><span>Tani_</span>Gokhale</a>
+        <ul class="navlist d-flex">
+            <li class="mx-2"><a href="#home" class="active">Home</a></li>
+            <li class="mx-2"><a href="#about">About</a></li>
+            <li class="mx-2"><a href="#projects">Projects</a></li>
+            <li class="mx-2"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="#" class="btn btn-primary" onclick="showEmail()">Let's chat <i class='bx bx-message-dots'></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Hey...Welcome To my World</h3>
+            <h1> I'm Tanisha</h1>
+
+            <div class="text-animate">
+                <h2>Full Stack Java Developer</h2>
+            </div>
+
+            <p>A highly process in depth advanced-level knowledge of full stack java Developer with excellent presentation skills and to utilize my skills that 
+                can contribute to the company growth as well as enhance my knowledge by exploring new things.</p>
+
+            <div class="btn-box">
+                <a href="#" id="hireMeButton" class="btn btn-success">Hire Me Now! <i class='bx bx-right-arrow-alt'></i></a>
+                <a href="Tanisha_Gokhale Resume.pdf" target="_blank" class="btn btn-secondary">Download CV <i class='bx bx-download'></i></a>
+            </div>
+
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="img-hero">
+            <img src="images/tanisha.png" alt="">
+            <div class="rotate-text">
+                <div class="text">
+                    <p>I'm Full Stack Java Developer And I'm Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate Full Stack Java Developer with a strong understanding of both front-end and back-end technologies. My experience spans multiple projects, allowing me to build scalable web applications and deliver high-quality software solutions.</p>
+        <p>I thrive in dynamic environments and enjoy tackling complex challenges while continuously learning new skills.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul class="list-unstyled">
+            <li>WORDS BOMBARDING GAME APPLICATION </li>
+            <li>EMPLOYEE MANAGEMENT SYSTEM.</li>
+            <li>EXPENSE TRACKER APPLICATION</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or inquiries, feel free to reach out through the form below or connect with me on social media!</p>
+        </div>
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message <i class='bx bx-paper-plane'></i></button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+    <footer class="text-center p-3 bg-light">
+        <p>&copy; 2024 Tanisha Gokhale. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
